@@ -10270,12 +10270,12 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 4.1rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 4.1rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
@@ -10342,4 +10342,10 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+#about-container {
+  height: 50vh;
+}
+#about-name {
+  margin-top: 10%;
 }
