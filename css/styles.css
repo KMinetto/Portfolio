@@ -465,8 +465,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
 }
 
 .img-thumbnail {
@@ -10242,7 +10241,12 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+    padding-top: 3rem !important;
+    padding-bottom: 10rem !important;
+
+}
+.projects-section h2 {
+    margin-bottom: 5rem;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10335,6 +10339,10 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.project-text a i{
+    font-size: 24px;
 }
 
 #textarea {
