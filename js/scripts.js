@@ -45,3 +45,23 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+// Fetch
+
+const form = document.querySelector('form');
+const btn = document.querySelector('#btnEmail');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    fetch('assets/php/mail.php', {
+        method: 'POST',
+        body: formData,
+    })
+        .then(response => {
+            form.reset();
+        })
+        .catch(error => console.error(error));
+});

@@ -1,0 +1,13 @@
+{
+    "name": "kminetto/portfolio",
+    "description": "This is my portfolio",
+    "authors": [
+        {
+            "name": "KMinetto",
+            "email": "killian.minetto@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    }
+}
