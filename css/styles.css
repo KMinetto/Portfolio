@@ -10330,10 +10330,10 @@ body {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
-.contact-section .social a:hover {
+.contact-section .social a:hover,  #about-container .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.contact-section .social a:active {
+.contact-section .social a:active, #about-container .social a:active {
   color: #fff;
 }
 
@@ -10403,7 +10403,7 @@ body {
 .fa-sass,
 .fa-database,
 .fa-php,
-.fa-node-js  {
+.fa-js-square  {
   font-size: 4rem;
   margin-top: 20px;
 }
@@ -10424,8 +10424,8 @@ body {
   color: #DADADA;
 }
 
-.fa-node-js {
-  color: #026E00;
+.fa-js-square {
+  color: #EFD81D;
 }
 
 .fa-sass {
