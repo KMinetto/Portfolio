@@ -10405,7 +10405,14 @@ body {
 .fa-sass,
 .fa-database,
 .fa-php,
-.fa-js-square  {
+.fa-js-square,
+.fa-git,
+.fa-github-alt,
+.fa-symfony,
+.fa-bootstrap,
+.fa-vuejs,
+.fa-wordpress
+{
   font-size: 4rem;
   margin-top: 20px;
 }
@@ -10432,6 +10439,22 @@ body {
 
 .fa-sass {
   color: #CF649A;
+}
+
+.fa-wordpress {
+  color: #0073aa;
+}
+
+.fa-bootstrap {
+  color: #533c78;
+}
+
+.fa-git {
+  color: #e84e31;
+}
+
+.fa-vuejs {
+  color: #3fb27f;
 }
 
 @keyframes scroll {
