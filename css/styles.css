@@ -10457,6 +10457,11 @@ body {
   color: #3fb27f;
 }
 
+.img-cover {
+  object-fit: cover;
+  object-position: center;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
